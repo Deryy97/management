@@ -15,8 +15,9 @@ class Employer(models.Model):
     email = models.CharField(max_length=50)
     hire_date = models.DateField()
     education = models.CharField(max_length=200 , blank=True)
-    address = models.CharField(max_length=50 , blank=True)
+    address = models.CharField(max_length=200 , blank=True)
     company_name = models.CharField(max_length=50 , blank=True)
+    status = models.BooleanField(default=True)
     description = models.TextField(blank=True)
 
 

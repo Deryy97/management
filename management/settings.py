@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'employer.apps.EmployerConfig',
     'contact.apps.ContactConfig',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
